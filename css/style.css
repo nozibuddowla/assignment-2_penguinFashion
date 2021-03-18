@@ -12,6 +12,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* header start*/
 header{
     background: #FFF9F4;
 }
@@ -25,12 +26,11 @@ header{
 }
 .heading{
     font-family: 'Bebas Neue', cursive;
-    font-style: normal;
-    font-weight: bold;
     font-size: 50px;
     color: #FA804C;
 }
 .heighlight-heading{
+    font-family: 'Bebas Neue', cursive;
     color: #363958;
 }
 .para{
@@ -48,6 +48,27 @@ header{
     color: #fff;
     background: #FA804C;
 }
+
+/* header end*/
+
+/* main start */
+.category-item{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.category-item:hover {
+  transform: scale(1.1);
+}
+.cas-heighlighter{
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+}
+.price{
+    font-family: 'Roboto', sans-serif;
+    color: #FA804C;
+}
+/* main end */
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
@@ -55,6 +76,12 @@ header{
 @media only screen and (max-width: 575px) {
     .navbar-brand img{
         width: 190px;
+    }
+    .heading{
+        font-size: 33px;
+    }
+    .cas-shoe h1{
+        font-size: 24px;
     }
 }
 
