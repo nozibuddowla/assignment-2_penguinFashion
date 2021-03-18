@@ -1,0 +1,88 @@
+@font-face {
+    
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    src: url(../css/Roboto/Roboto-Bold.ttf);
+    src: url(../css/Roboto/Roboto-Medium.ttf);
+    src: url(../css/Roboto/Roboto-Regular.ttf);
+    src: url(../css/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+    background: #FFF9F4;
+}
+.navbar-brand img{
+    width: 290px;
+}
+.navbar-nav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3C3C3C !important;
+}
+.heading{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: #FA804C;
+}
+.heighlight-heading{
+    color: #363958;
+}
+.para{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #3E3E3E;
+}
+.btn-hero{
+    color: #fff;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border: none;
+    transition: width 2s ease-out 1s;
+}
+.btn-hero:hover {
+    color: #fff;
+    background: #FA804C;
+}
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 575px) {
+    .navbar-brand img{
+        width: 190px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar-brand img{
+        width: 240px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand img{
+        width: 265px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+}
+
+@media (min-width: 1441px) {
+
+}
+
